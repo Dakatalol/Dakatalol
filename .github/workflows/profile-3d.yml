@@ -1,8 +1,5 @@
 name: GitHub-Profile-3D-Contrib
-permissions:
-  pull-requests: write
-  issues: write
-  repository-projects: write
+permissions: write-all
 on:
   schedule: # 03:00 JST == 18:00 UTC
     - cron: "0 18 * * *"
